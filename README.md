@@ -1,50 +1,67 @@
-# Welcome to your Expo app 👋
+# Expo Tailwind Hackpack
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React Native](https://img.shields.io/badge/ReactNative-222222?style=for-the-badge&logo=React&logoColor=)
+<br/>
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
+![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
-## Get started
+## Node.js
 
-1. Install dependencies
+Expo Tailwind Hackpack runs on Node.js Version 20.10.0 and higher. Please ensure you have Node.js installed via the [official website](https://nodejs.org/en).
 
-   ```bash
-   npm install
-   ```
+## Expo
 
-2. Start the app
+This project is built using [Expo](https://expo.dev/), a React Native framework. Expo is automatically installed when you install all dependencies for this project.
 
-   ```bash
-    npx expo start
-   ```
+Please make sure to download and install the Expo Go app on your phone.
 
-In the output, you'll find options to open the app in a
+## Environment Variables
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+The following environment variables are required and must be stored in an `.env` file:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```env
+N/A
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Commands
 
-## Learn more
+### Dependencies
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+# Install dependencies
+npm i
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+# Add dependency
+npm i <dependency>
 
-## Join the community
+# Remove dependency
+npm un <dependency>
+```
 
-Join our community of developers creating universal apps.
+### Running the Website Locally
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+# Scan the QR code to open up on Expo Go on your mobile device.
+npm run start
+
+```
+
+### Formatting Code via Prettier
+
+```bash
+# Rewrite code recursively with proper formatting
+npm run format
+
+# Show formatting differences recursively
+npm run check
+```
+
+### Linting Code via Eslint
+
+```bash
+npm run eslint
+```
