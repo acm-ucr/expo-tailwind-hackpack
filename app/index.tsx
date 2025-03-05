@@ -4,8 +4,8 @@ import React from "react";
 
 const Home = () => {
   return (
-    <View>
-      <Text>Home</Text>
+    <View className="bg-white">
+      <Text className="bg-red-800">Home</Text>
     </View>
   );
 };
