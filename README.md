@@ -42,12 +42,11 @@ npm i <dependency>
 npm un <dependency>
 ```
 
-### Running the Website Locally
+### Running the App on your Mobile Device
 
 ```bash
 # Scan the QR code to open up on Expo Go on your mobile device.
 npm run start
-
 ```
 
 ### Formatting Code via Prettier

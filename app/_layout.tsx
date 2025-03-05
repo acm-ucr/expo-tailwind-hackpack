@@ -24,7 +24,7 @@ export default function RootLayout() {
   }
 
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1 bg-white">
       <Slot />
     </SafeAreaView>
   );
