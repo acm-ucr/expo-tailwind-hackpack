@@ -13,7 +13,8 @@
     "check": "npx prettier --check .",
     "format": "npx prettier --write .",
     "prepare": "husky install",
-    "build": "npx expo build -p android --local"
+    "build": "npx expo build -p android --local",
+    "lint": "eslint ."
   },
   "jest": {
     "preset": "jest-expo"
