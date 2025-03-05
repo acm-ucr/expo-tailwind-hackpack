@@ -1,4 +1,4 @@
-name: Expo Tailwind Hackpack 
+name: Expo Tailwind Hackpack
 
 on:
   pull_request:
