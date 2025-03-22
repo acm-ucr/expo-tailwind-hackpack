@@ -9,11 +9,12 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
-    "lint": "expo lint",
+    "eslint": "expo lint",
     "check": "npx prettier --check .",
     "format": "npx prettier --write .",
     "prepare": "husky install",
-    "build": "npx expo build -p android --local"
+    "build": "npx expo build -p android --local",
+    "lint": "eslint ."
   },
   "jest": {
     "preset": "jest-expo"
@@ -43,8 +44,7 @@
     "react-native-safe-area-context": "4.12.0",
     "react-native-screens": "~4.4.0",
     "react-native-web": "~0.19.13",
-    "react-native-webview": "13.12.5",
-    "tailwindcss": "^3.4.17"
+    "react-native-webview": "13.12.5"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
@@ -60,6 +60,7 @@
     "jest-expo": "~52.0.4",
     "prettier": "3.5.3",
     "react-test-renderer": "18.3.1",
+    "tailwindcss": "^3.4.17",
     "typescript": "^5.3.3"
   },
   "private": true
